@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.8"
     },
-    "CreationDate": "2025-02-20T22:09:20+11:00"
+    "CreationDate": "2025-02-21T18:04:56+11:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 52.17,
-      "Y": 64.8995
+      "X": 104.24,
+      "Y": 95.3795
     },
     "LayerNumber": 2,
     "BoardThickness": 0.8,
@@ -72,6 +72,11 @@
       "Path": "panel-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
+    },
+    {
+      "Path": "panel-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
     },
     {
       "Path": "panel-Edge_Cuts.gbr",
