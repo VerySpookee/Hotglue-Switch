@@ -1,5 +1,5 @@
 Drill report for Hotglue Switch.kicad_pcb
-Created on 2025-02-19T21:32:32+1100
+Created on 2025-11-15T16:18:14+1100
 
 Copper Layer Stackup:
     =============================================================
@@ -20,7 +20,7 @@ Drill file 'Hotglue Switch-PTH-drl.gbr' contains
 Drill file 'Hotglue Switch-NPTH-drl.gbr' contains
     unplated through holes:
     =============================================================
-    T1  2.100mm  0.0827"  (1 hole)
-    T2  3.200mm  0.1260"  (1 hole)
+    T1  2.200mm  0.0866"  (1 hole)
+    T2  2.500mm  0.0984"  (1 hole)
 
     Total unplated holes count 2

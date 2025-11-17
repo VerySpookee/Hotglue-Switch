@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9855c043-811a-4069-8280-339210615601")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,16 +83,26 @@
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -105,26 +117,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -164,10 +166,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -241,9 +246,42 @@
 				)
 			)
 			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -267,7 +305,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -275,39 +313,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -365,11 +370,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -437,10 +447,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -461,7 +483,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -473,22 +495,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -534,9 +544,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -655,6 +668,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:M1.6x4"
 			(pin_names
@@ -737,6 +751,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:M3x4"
 			(pin_names
@@ -819,6 +834,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -901,11 +917,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -1003,11 +1024,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MountingHole_Pad_1"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -1105,6 +1131,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
@@ -1182,7 +1209,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1194,7 +1221,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1208,7 +1235,8 @@
 			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+BATT"
 						(effects
 							(font
@@ -1225,6 +1253,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-BATT"
 			(power)
@@ -1316,7 +1345,8 @@
 			(symbol "-BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-BATT"
 						(effects
 							(font
@@ -1333,6 +1363,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1565,7 +1596,7 @@
 		(lib_id "Mechanical:M3x4")
 		(at 38.1 48.26 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1580,7 +1611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw"
+		(property "Value" "M2 Screw"
 			(at 40.64 49.5299 0)
 			(effects
 				(font
@@ -1589,7 +1620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:Screw M3"
+		(property "Footprint" "Trent-footprints:Screw M2"
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -1630,7 +1661,7 @@
 		(at 38.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1644,7 +1675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 MountingHole"
 			(at 40.64 39.37 0)
 			(effects
 				(font
@@ -1653,7 +1684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -1708,7 +1739,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150060GS75003"
+		(property "Value" "XL-1608UBC-06A"
 			(at 80.01 103.1875 90)
 			(effects
 				(font
@@ -1726,7 +1757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
 			(at 76.2 100.33 0)
 			(effects
 				(font
@@ -1735,7 +1766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 0603 SMD"
+		(property "Description" "LED BLUE WATER CLEAR 0603 SMD"
 			(at 76.2 100.33 0)
 			(effects
 				(font
@@ -1853,7 +1884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:PinHeader_1x02_P2.54mm_Vertical Negative"
+		(property "Footprint" "Trent-footprints:PinHeader_1x02_P2.54mm_Vertical Negative"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -1921,7 +1952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal_Aliexpress"
+		(property "Footprint" "Trent-footprints:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal_Aliexpress"
 			(at 38.1 68.58 0)
 			(effects
 				(font
@@ -1994,7 +2025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:screw_contact_3"
+		(property "Footprint" "Trent-footprints:Sinhoo-M1.6-screw-contact"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -2061,7 +2092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:PinHeader_1x02_P2.54mm_Vertical Positive"
+		(property "Footprint" "Trent-footprints:PinHeader_1x02_P2.54mm_Vertical Positive"
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -2122,7 +2153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560112140008"
+		(property "Value" "RC0603FR-07390RL"
 			(at 78.74 90.17 0)
 			(effects
 				(font
@@ -2131,7 +2162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.422 88.9 90)
 			(effects
 				(font
@@ -2140,7 +2171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114620.pdf"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -2149,7 +2180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 220 OHM 5% 1/2W 1210"
+		(property "Description" "RES 390Ω ±1% 100mW 0603"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -2177,7 +2208,7 @@
 		(lib_id "Mechanical:M1.6x4")
 		(at 38.1 43.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2192,7 +2223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw"
+		(property "Value" "M1.6 Screw"
 			(at 40.64 44.4499 0)
 			(effects
 				(font
@@ -2201,7 +2232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Trent_Components_Library:Screw M1.6"
+		(property "Footprint" "Trent-footprints:Screw M1.6"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -2308,7 +2339,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 76.2 73.66 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2323,7 +2354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9774010633R"
+		(property "Value" "SMTSO1610MTJ"
 			(at 78.74 73.6599 0)
 			(effects
 				(font
@@ -2332,7 +2363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H1mm_9774010633"
+		(property "Footprint" "Trent-footprints:Mounting_Sinhoo_SMTSO1610MJT"
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -2376,4 +2407,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

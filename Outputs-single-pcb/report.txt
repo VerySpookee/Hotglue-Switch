@@ -1,0 +1,12 @@
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-F_Cu.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-B_Cu.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-F_Paste.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-B_Paste.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-F_Silkscreen.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-B_Silkscreen.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-F_Mask.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-B_Mask.gbr'.
+Plotted to '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-Edge_Cuts.gbr'.
+Created Gerber job file '/home/spookee/Documents/Kicad/Kicad Projects/Hotglue-Switch/Outputs-single-pcb/Hotglue Switch-job.gbrjob'.
+Info: Done.
+Info: Done.
